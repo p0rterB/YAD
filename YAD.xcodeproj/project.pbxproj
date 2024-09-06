@@ -10,38 +10,26 @@
 		8B172A762AD168BC00ECBD74 /* YAD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B172A6D2AD168BB00ECBD74 /* YAD.framework */; };
 		8B172DC82AD1759600ECBD74 /* YDConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B172DC72AD1759600ECBD74 /* YDConstants.swift */; };
 		8B172DCD2AD1764D00ECBD74 /* YAD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B172DCA2AD1764D00ECBD74 /* YAD.swift */; };
-		8B172DD62AD176B100ECBD74 /* basisCoProcessor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B172DD02AD176B100ECBD74 /* basisCoProcessor.cpp */; };
-		8B172DD92AD176B100ECBD74 /* defs.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B172DD32AD176B100ECBD74 /* defs.h */; };
-		8B172DDA2AD176B100ECBD74 /* basisProcessor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B172DD42AD176B100ECBD74 /* basisProcessor.cpp */; };
-		8B172DDB2AD176B100ECBD74 /* main.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B172DD52AD176B100ECBD74 /* main.h */; };
-		8B172DE12AD17D8B00ECBD74 /* uint128_t.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B172DDF2AD17D8B00ECBD74 /* uint128_t.h */; };
-		8B172DE22AD17D8B00ECBD74 /* uint128_t.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B172DE02AD17D8B00ECBD74 /* uint128_t.cpp */; };
-		8B172DE42AD17D9C00ECBD74 /* uint128_t_config.include in Resources */ = {isa = PBXBuildFile; fileRef = 8B172DE32AD17D9C00ECBD74 /* uint128_t_config.include */; };
-		8B172DE62AD17DAC00ECBD74 /* uint128_t.include in Resources */ = {isa = PBXBuildFile; fileRef = 8B172DE52AD17DAC00ECBD74 /* uint128_t.include */; };
-		8B172DE82AD17FF700ECBD74 /* uint128_t.build in Resources */ = {isa = PBXBuildFile; fileRef = 8B172DE72AD17FF700ECBD74 /* uint128_t.build */; };
-		8B172DEA2AD1800A00ECBD74 /* endianness.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B172DE92AD1800A00ECBD74 /* endianness.h */; };
-		8B172E4E2AD1AB3800ECBD74 /* CWrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B172E4D2AD1AB3800ECBD74 /* CWrapper.cpp */; };
-		8B172E502AD1ACB400ECBD74 /* YAD-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B172E4F2AD1ACB400ECBD74 /* YAD-Bridging-Header.h */; };
 		8B172E522AD1B6C500ECBD74 /* UnitYAD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B172E512AD1B6C500ECBD74 /* UnitYAD.swift */; };
 		8B29B49F2AD1BE3F00A7AD33 /* payload.enc in Resources */ = {isa = PBXBuildFile; fileRef = 8B29B49D2AD1BE3F00A7AD33 /* payload.enc */; };
 		8B29B4A02AD1BE3F00A7AD33 /* payload.dec in Resources */ = {isa = PBXBuildFile; fileRef = 8B29B49E2AD1BE3F00A7AD33 /* payload.dec */; };
-		8B29B4BE2AD1C1D900A7AD33 /* YADmac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B29B4B62AD1C1D800A7AD33 /* YADmac.framework */; };
-		8B29B4CB2AD1C1E900A7AD33 /* UnitYAD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B172E512AD1B6C500ECBD74 /* UnitYAD.swift */; };
-		8B29B4CC2AD1C1EC00A7AD33 /* payload.enc in Resources */ = {isa = PBXBuildFile; fileRef = 8B29B49D2AD1BE3F00A7AD33 /* payload.enc */; };
-		8B29B4CD2AD1C1EE00A7AD33 /* payload.dec in Resources */ = {isa = PBXBuildFile; fileRef = 8B29B49E2AD1BE3F00A7AD33 /* payload.dec */; };
-		8B29B4CE2AD1C1F200A7AD33 /* YDConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B172DC72AD1759600ECBD74 /* YDConstants.swift */; };
-		8B29B4CF2AD1C1F400A7AD33 /* YAD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B172DCA2AD1764D00ECBD74 /* YAD.swift */; };
-		8B29B4D12AD1C1F900A7AD33 /* CWrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B172E4D2AD1AB3800ECBD74 /* CWrapper.cpp */; };
-		8B29B4D32AD1C29200A7AD33 /* uint128_t.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B172DE02AD17D8B00ECBD74 /* uint128_t.cpp */; };
-		8B29B4D42AD1C29200A7AD33 /* uint128_t.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B172DDF2AD17D8B00ECBD74 /* uint128_t.h */; };
-		8B29B4D52AD1C29200A7AD33 /* endianness.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B172DE92AD1800A00ECBD74 /* endianness.h */; };
-		8B29B4D62AD1C29200A7AD33 /* uint128_t.include in Resources */ = {isa = PBXBuildFile; fileRef = 8B172DE52AD17DAC00ECBD74 /* uint128_t.include */; };
-		8B29B4D72AD1C29200A7AD33 /* main.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B172DD52AD176B100ECBD74 /* main.h */; };
-		8B29B4D82AD1C29200A7AD33 /* basisCoProcessor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B172DD02AD176B100ECBD74 /* basisCoProcessor.cpp */; };
-		8B29B4D92AD1C29200A7AD33 /* uint128_t.build in Resources */ = {isa = PBXBuildFile; fileRef = 8B172DE72AD17FF700ECBD74 /* uint128_t.build */; };
-		8B29B4DA2AD1C29200A7AD33 /* uint128_t_config.include in Resources */ = {isa = PBXBuildFile; fileRef = 8B172DE32AD17D9C00ECBD74 /* uint128_t_config.include */; };
-		8B29B4DB2AD1C29200A7AD33 /* defs.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B172DD32AD176B100ECBD74 /* defs.h */; };
-		8B29B4DC2AD1C29200A7AD33 /* basisProcessor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B172DD42AD176B100ECBD74 /* basisProcessor.cpp */; };
+		8BA6B9EA2C8AF0A900D26999 /* YAD.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BA6B9E92C8AF0A900D26999 /* YAD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BA6B9ED2C8AF15600D26999 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 8BA6B9EC2C8AF15500D26999 /* PrivacyInfo.xcprivacy */; };
+		8BA6B9EE2C8AF27200D26999 /* YADCXX-XCode-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BDA756F2B21B0D400D6128A /* YADCXX-XCode-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BC9719A2B21CA9200F62534 /* uint128_t.include.h in Resources */ = {isa = PBXBuildFile; fileRef = 8B172DE52AD17DAC00ECBD74 /* uint128_t.include.h */; };
+		8BC9719B2B21CA9400F62534 /* uint128_t_config.include.h in Resources */ = {isa = PBXBuildFile; fileRef = 8B172DE32AD17D9C00ECBD74 /* uint128_t_config.include.h */; };
+		8BC9719C2B21CA9800F62534 /* uint128_t.build.h in Resources */ = {isa = PBXBuildFile; fileRef = 8B172DE72AD17FF700ECBD74 /* uint128_t.build.h */; };
+		8BC9719D2B21CA9B00F62534 /* defs.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B172DD32AD176B100ECBD74 /* defs.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		8BC9719E2B21CA9D00F62534 /* endianness.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B172DE92AD1800A00ECBD74 /* endianness.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		8BC9719F2B21CAA500F62534 /* main.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B172DD52AD176B100ECBD74 /* main.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		8BC971A02B21CAA800F62534 /* uint128_t.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B172DDF2AD17D8B00ECBD74 /* uint128_t.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		8BC971A12B21CAAC00F62534 /* uint128_t.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B172DE02AD17D8B00ECBD74 /* uint128_t.cpp */; };
+		8BC971A22B21CAAE00F62534 /* basisProcessor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B172DD42AD176B100ECBD74 /* basisProcessor.cpp */; };
+		8BC971A32B21CAB000F62534 /* basisCoProcessor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B172DD02AD176B100ECBD74 /* basisCoProcessor.cpp */; };
+		8BDA75602B21A6DF00D6128A /* CryptoSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8BDA755F2B21A6DF00D6128A /* CryptoSwift */; };
+		8BDA75672B21A79B00D6128A /* TestConstantsXCodeEnvExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDA75662B21A79500D6128A /* TestConstantsXCodeEnvExt.swift */; };
+		8BDA75692B21A7C900D6128A /* TestConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDA75682B21A7C900D6128A /* TestConstants.swift */; };
+		8BE79C5B2B21F4E4004015A0 /* YADCXX-XCode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8BE79C5A2B21F4E0004015A0 /* YADCXX-XCode.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,16 +40,18 @@
 			remoteGlobalIDString = 8B172A6C2AD168BB00ECBD74;
 			remoteInfo = YAD;
 		};
-		8B29B4BF2AD1C1D900A7AD33 /* PBXContainerItemProxy */ = {
+		8BC971E82B21D08500F62534 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 8B172A642AD168BB00ECBD74 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8B29B4B52AD1C1D800A7AD33;
-			remoteInfo = YADmac;
+			containerPortal = 8BC971E42B21D08500F62534 /* PoC.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8BC971CB2B21D04700F62534;
+			remoteInfo = PoC;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8B0419982B83D04B00BF5E42 /* YADCXX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YADCXX.h; sourceTree = "<group>"; };
+		8B04199B2B83D2AC00BF5E42 /* YADCXX.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = YADCXX.cpp; sourceTree = "<group>"; };
 		8B172A6D2AD168BB00ECBD74 /* YAD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YAD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B172A752AD168BC00ECBD74 /* YADTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YADTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B172DC72AD1759600ECBD74 /* YDConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YDConstants.swift; sourceTree = "<group>"; };
@@ -73,21 +63,25 @@
 		8B172DD52AD176B100ECBD74 /* main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
 		8B172DDF2AD17D8B00ECBD74 /* uint128_t.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uint128_t.h; sourceTree = "<group>"; };
 		8B172DE02AD17D8B00ECBD74 /* uint128_t.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = uint128_t.cpp; sourceTree = "<group>"; };
-		8B172DE32AD17D9C00ECBD74 /* uint128_t_config.include */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = uint128_t_config.include; sourceTree = "<group>"; };
-		8B172DE52AD17DAC00ECBD74 /* uint128_t.include */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = uint128_t.include; sourceTree = "<group>"; };
-		8B172DE72AD17FF700ECBD74 /* uint128_t.build */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = uint128_t.build; sourceTree = "<group>"; };
+		8B172DE32AD17D9C00ECBD74 /* uint128_t_config.include.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uint128_t_config.include.h; sourceTree = "<group>"; };
+		8B172DE52AD17DAC00ECBD74 /* uint128_t.include.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uint128_t.include.h; sourceTree = "<group>"; };
+		8B172DE72AD17FF700ECBD74 /* uint128_t.build.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uint128_t.build.h; sourceTree = "<group>"; };
 		8B172DE92AD1800A00ECBD74 /* endianness.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = endianness.h; sourceTree = "<group>"; };
-		8B172E4D2AD1AB3800ECBD74 /* CWrapper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CWrapper.cpp; sourceTree = "<group>"; };
-		8B172E4F2AD1ACB400ECBD74 /* YAD-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YAD-Bridging-Header.h"; sourceTree = "<group>"; };
 		8B172E512AD1B6C500ECBD74 /* UnitYAD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitYAD.swift; sourceTree = "<group>"; };
 		8B29B49D2AD1BE3F00A7AD33 /* payload.enc */ = {isa = PBXFileReference; lastKnownFileType = file; path = payload.enc; sourceTree = "<group>"; };
 		8B29B49E2AD1BE3F00A7AD33 /* payload.dec */ = {isa = PBXFileReference; lastKnownFileType = file; path = payload.dec; sourceTree = "<group>"; };
 		8B29B4A32AD1C0DE00A7AD33 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		8B29B4B62AD1C1D800A7AD33 /* YADmac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YADmac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8B29B4BD2AD1C1D900A7AD33 /* YADmacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YADmacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8B29B4D22AD1C24800A7AD33 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8B29B4DD2AD1D0B400A7AD33 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		8B29B4DE2AD1D2CF00A7AD33 /* YAD.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = YAD.podspec; sourceTree = "<group>"; };
+		8B29B4DE2AD1D2CF00A7AD33 /* YAD.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = YAD.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8BA6B9E92C8AF0A900D26999 /* YAD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAD.h; sourceTree = "<group>"; };
+		8BA6B9EC2C8AF15500D26999 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		8BC971E42B21D08500F62534 /* PoC.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = PoC.xcodeproj; sourceTree = "<group>"; };
+		8BDA75642B21A72500D6128A /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		8BDA75652B21A79500D6128A /* TestConstantsSpmEnvExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestConstantsSpmEnvExt.swift; sourceTree = "<group>"; };
+		8BDA75662B21A79500D6128A /* TestConstantsXCodeEnvExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestConstantsXCodeEnvExt.swift; sourceTree = "<group>"; };
+		8BDA75682B21A7C900D6128A /* TestConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestConstants.swift; sourceTree = "<group>"; };
+		8BDA756F2B21B0D400D6128A /* YADCXX-XCode-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YADCXX-XCode-Bridging-Header.h"; sourceTree = "<group>"; };
+		8BE79C5A2B21F4E0004015A0 /* YADCXX-XCode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "YADCXX-XCode.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BDA75602B21A6DF00D6128A /* CryptoSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,21 +101,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8B29B4B32AD1C1D800A7AD33 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8B29B4BA2AD1C1D900A7AD33 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8B29B4BE2AD1C1D900A7AD33 /* YADmac.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -128,13 +108,15 @@
 			isa = PBXGroup;
 			children = (
 				8B29B4DD2AD1D0B400A7AD33 /* .gitignore */,
-				8B172DCF2AD1768D00ECBD74 /* README.md */,
-				8B29B4A32AD1C0DE00A7AD33 /* LICENSE */,
-				8B29B4DE2AD1D2CF00A7AD33 /* YAD.podspec */,
-				8B29B4D22AD1C24800A7AD33 /* Podfile */,
+				8BC971A62B21CF3100F62534 /* Example */,
 				8B172A6F2AD168BB00ECBD74 /* Sources */,
 				8B172A792AD168BC00ECBD74 /* Tests */,
+				8B172DCF2AD1768D00ECBD74 /* README.md */,
+				8B29B4A32AD1C0DE00A7AD33 /* LICENSE */,
+				8BDA75642B21A72500D6128A /* Package.swift */,
+				8B29B4DE2AD1D2CF00A7AD33 /* YAD.podspec */,
 				8B172A6E2AD168BB00ECBD74 /* Products */,
+				8BC971852B21BE8000F62534 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -143,8 +125,6 @@
 			children = (
 				8B172A6D2AD168BB00ECBD74 /* YAD.framework */,
 				8B172A752AD168BC00ECBD74 /* YADTests.xctest */,
-				8B29B4B62AD1C1D800A7AD33 /* YADmac.framework */,
-				8B29B4BD2AD1C1D900A7AD33 /* YADmacTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -153,11 +133,9 @@
 			isa = PBXGroup;
 			children = (
 				8B29B4A12AD1BF4800A7AD33 /* Exclude */,
-				8B172E0F2AD1A7B700ECBD74 /* CXX */,
-				8B172E4D2AD1AB3800ECBD74 /* CWrapper.cpp */,
-				8B172E4F2AD1ACB400ECBD74 /* YAD-Bridging-Header.h */,
-				8B172DCA2AD1764D00ECBD74 /* YAD.swift */,
-				8B172DC72AD1759600ECBD74 /* YDConstants.swift */,
+				8BDA755D2B21A68C00D6128A /* YAD */,
+				8BC9716B2B21BCC800F62534 /* YADCXX */,
+				8BA6B9E92C8AF0A900D26999 /* YAD.h */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -165,28 +143,9 @@
 		8B172A792AD168BC00ECBD74 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				8B172E512AD1B6C500ECBD74 /* UnitYAD.swift */,
-				8B29B49E2AD1BE3F00A7AD33 /* payload.dec */,
-				8B29B49D2AD1BE3F00A7AD33 /* payload.enc */,
+				8BDA75632B21A70800D6128A /* YADTests */,
 			);
 			path = Tests;
-			sourceTree = "<group>";
-		};
-		8B172E0F2AD1A7B700ECBD74 /* CXX */ = {
-			isa = PBXGroup;
-			children = (
-				8B172DE92AD1800A00ECBD74 /* endianness.h */,
-				8B172DE02AD17D8B00ECBD74 /* uint128_t.cpp */,
-				8B172DDF2AD17D8B00ECBD74 /* uint128_t.h */,
-				8B172DE32AD17D9C00ECBD74 /* uint128_t_config.include */,
-				8B172DE52AD17DAC00ECBD74 /* uint128_t.include */,
-				8B172DE72AD17FF700ECBD74 /* uint128_t.build */,
-				8B172DD32AD176B100ECBD74 /* defs.h */,
-				8B172DD42AD176B100ECBD74 /* basisProcessor.cpp */,
-				8B172DD02AD176B100ECBD74 /* basisCoProcessor.cpp */,
-				8B172DD52AD176B100ECBD74 /* main.h */,
-			);
-			path = CXX;
 			sourceTree = "<group>";
 		};
 		8B29B4A12AD1BF4800A7AD33 /* Exclude */ = {
@@ -196,6 +155,81 @@
 			path = Exclude;
 			sourceTree = "<group>";
 		};
+		8BC9716B2B21BCC800F62534 /* YADCXX */ = {
+			isa = PBXGroup;
+			children = (
+				8BDA75712B21B56100D6128A /* include */,
+				8B172DE02AD17D8B00ECBD74 /* uint128_t.cpp */,
+				8B172DD42AD176B100ECBD74 /* basisProcessor.cpp */,
+				8B172DD02AD176B100ECBD74 /* basisCoProcessor.cpp */,
+				8BDA756F2B21B0D400D6128A /* YADCXX-XCode-Bridging-Header.h */,
+				8B04199B2B83D2AC00BF5E42 /* YADCXX.cpp */,
+				8BE79C5A2B21F4E0004015A0 /* YADCXX-XCode.cpp */,
+			);
+			path = YADCXX;
+			sourceTree = "<group>";
+		};
+		8BC971852B21BE8000F62534 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8BC971A62B21CF3100F62534 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				8BC971E42B21D08500F62534 /* PoC.xcodeproj */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		8BC971E52B21D08500F62534 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BC971E92B21D08500F62534 /* PoC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BDA755D2B21A68C00D6128A /* YAD */ = {
+			isa = PBXGroup;
+			children = (
+				8B172DCA2AD1764D00ECBD74 /* YAD.swift */,
+				8B172DC72AD1759600ECBD74 /* YDConstants.swift */,
+				8BA6B9EC2C8AF15500D26999 /* PrivacyInfo.xcprivacy */,
+			);
+			path = YAD;
+			sourceTree = "<group>";
+		};
+		8BDA75632B21A70800D6128A /* YADTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B172E512AD1B6C500ECBD74 /* UnitYAD.swift */,
+				8BDA75682B21A7C900D6128A /* TestConstants.swift */,
+				8BDA75652B21A79500D6128A /* TestConstantsSpmEnvExt.swift */,
+				8BDA75662B21A79500D6128A /* TestConstantsXCodeEnvExt.swift */,
+				8B29B49E2AD1BE3F00A7AD33 /* payload.dec */,
+				8B29B49D2AD1BE3F00A7AD33 /* payload.enc */,
+			);
+			path = YADTests;
+			sourceTree = "<group>";
+		};
+		8BDA75712B21B56100D6128A /* include */ = {
+			isa = PBXGroup;
+			children = (
+				8B0419982B83D04B00BF5E42 /* YADCXX.h */,
+				8B172DE52AD17DAC00ECBD74 /* uint128_t.include.h */,
+				8B172DE32AD17D9C00ECBD74 /* uint128_t_config.include.h */,
+				8B172DE72AD17FF700ECBD74 /* uint128_t.build.h */,
+				8B172DD32AD176B100ECBD74 /* defs.h */,
+				8B172DE92AD1800A00ECBD74 /* endianness.h */,
+				8B172DD52AD176B100ECBD74 /* main.h */,
+				8B172DDF2AD17D8B00ECBD74 /* uint128_t.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -203,22 +237,12 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B172DD92AD176B100ECBD74 /* defs.h in Headers */,
-				8B172E502AD1ACB400ECBD74 /* YAD-Bridging-Header.h in Headers */,
-				8B172DE12AD17D8B00ECBD74 /* uint128_t.h in Headers */,
-				8B172DEA2AD1800A00ECBD74 /* endianness.h in Headers */,
-				8B172DDB2AD176B100ECBD74 /* main.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8B29B4B12AD1C1D800A7AD33 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8B29B4DB2AD1C29200A7AD33 /* defs.h in Headers */,
-				8B29B4D72AD1C29200A7AD33 /* main.h in Headers */,
-				8B29B4D52AD1C29200A7AD33 /* endianness.h in Headers */,
-				8B29B4D42AD1C29200A7AD33 /* uint128_t.h in Headers */,
+				8BA6B9EE2C8AF27200D26999 /* YADCXX-XCode-Bridging-Header.h in Headers */,
+				8BC9719F2B21CAA500F62534 /* main.h in Headers */,
+				8BC9719E2B21CA9D00F62534 /* endianness.h in Headers */,
+				8BC9719D2B21CA9B00F62534 /* defs.h in Headers */,
+				8BC971A02B21CAA800F62534 /* uint128_t.h in Headers */,
+				8BA6B9EA2C8AF0A900D26999 /* YAD.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +263,9 @@
 			dependencies = (
 			);
 			name = YAD;
+			packageProductDependencies = (
+				8BDA755F2B21A6DF00D6128A /* CryptoSwift */,
+			);
 			productName = YAD;
 			productReference = 8B172A6D2AD168BB00ECBD74 /* YAD.framework */;
 			productType = "com.apple.product-type.framework";
@@ -261,42 +288,6 @@
 			productReference = 8B172A752AD168BC00ECBD74 /* YADTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		8B29B4B52AD1C1D800A7AD33 /* YADmac */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8B29B4C52AD1C1D900A7AD33 /* Build configuration list for PBXNativeTarget "YADmac" */;
-			buildPhases = (
-				8B29B4B12AD1C1D800A7AD33 /* Headers */,
-				8B29B4B22AD1C1D800A7AD33 /* Sources */,
-				8B29B4B32AD1C1D800A7AD33 /* Frameworks */,
-				8B29B4B42AD1C1D800A7AD33 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = YADmac;
-			productName = YADmac;
-			productReference = 8B29B4B62AD1C1D800A7AD33 /* YADmac.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		8B29B4BC2AD1C1D900A7AD33 /* YADmacTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8B29B4C82AD1C1D900A7AD33 /* Build configuration list for PBXNativeTarget "YADmacTests" */;
-			buildPhases = (
-				8B29B4B92AD1C1D900A7AD33 /* Sources */,
-				8B29B4BA2AD1C1D900A7AD33 /* Frameworks */,
-				8B29B4BB2AD1C1D900A7AD33 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8B29B4C02AD1C1D900A7AD33 /* PBXTargetDependency */,
-			);
-			name = YADmacTests;
-			productName = YADmacTests;
-			productReference = 8B29B4BD2AD1C1D900A7AD33 /* YADmacTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -315,12 +306,6 @@
 						CreatedOnToolsVersion = 14.2;
 						LastSwiftMigration = 1420;
 					};
-					8B29B4B52AD1C1D800A7AD33 = {
-						CreatedOnToolsVersion = 14.2;
-					};
-					8B29B4BC2AD1C1D900A7AD33 = {
-						CreatedOnToolsVersion = 14.2;
-					};
 				};
 			};
 			buildConfigurationList = 8B172A672AD168BB00ECBD74 /* Build configuration list for PBXProject "YAD" */;
@@ -332,26 +317,44 @@
 				Base,
 			);
 			mainGroup = 8B172A632AD168BB00ECBD74;
+			packageReferences = (
+				8BDA755E2B21A6DF00D6128A /* XCRemoteSwiftPackageReference "CryptoSwift" */,
+			);
 			productRefGroup = 8B172A6E2AD168BB00ECBD74 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 8BC971E52B21D08500F62534 /* Products */;
+					ProjectRef = 8BC971E42B21D08500F62534 /* PoC.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				8B172A6C2AD168BB00ECBD74 /* YAD */,
 				8B172A742AD168BC00ECBD74 /* YADTests */,
-				8B29B4B52AD1C1D800A7AD33 /* YADmac */,
-				8B29B4BC2AD1C1D900A7AD33 /* YADmacTests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		8BC971E92B21D08500F62534 /* PoC.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = PoC.app;
+			remoteRef = 8BC971E82B21D08500F62534 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		8B172A6B2AD168BB00ECBD74 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B172DE82AD17FF700ECBD74 /* uint128_t.build in Resources */,
-				8B172DE42AD17D9C00ECBD74 /* uint128_t_config.include in Resources */,
-				8B172DE62AD17DAC00ECBD74 /* uint128_t.include in Resources */,
+				8BC9719C2B21CA9800F62534 /* uint128_t.build.h in Resources */,
+				8BC9719A2B21CA9200F62534 /* uint128_t.include.h in Resources */,
+				8BA6B9ED2C8AF15600D26999 /* PrivacyInfo.xcprivacy in Resources */,
+				8BC9719B2B21CA9400F62534 /* uint128_t_config.include.h in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,25 +367,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8B29B4B42AD1C1D800A7AD33 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8B29B4DA2AD1C29200A7AD33 /* uint128_t_config.include in Resources */,
-				8B29B4D62AD1C29200A7AD33 /* uint128_t.include in Resources */,
-				8B29B4D92AD1C29200A7AD33 /* uint128_t.build in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8B29B4BB2AD1C1D900A7AD33 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8B29B4CC2AD1C1EC00A7AD33 /* payload.enc in Resources */,
-				8B29B4CD2AD1C1EE00A7AD33 /* payload.dec in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -390,12 +374,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BE79C5B2B21F4E4004015A0 /* YADCXX-XCode.cpp in Sources */,
 				8B172DC82AD1759600ECBD74 /* YDConstants.swift in Sources */,
-				8B172E4E2AD1AB3800ECBD74 /* CWrapper.cpp in Sources */,
+				8BC971A22B21CAAE00F62534 /* basisProcessor.cpp in Sources */,
+				8BC971A32B21CAB000F62534 /* basisCoProcessor.cpp in Sources */,
 				8B172DCD2AD1764D00ECBD74 /* YAD.swift in Sources */,
-				8B172DE22AD17D8B00ECBD74 /* uint128_t.cpp in Sources */,
-				8B172DDA2AD176B100ECBD74 /* basisProcessor.cpp in Sources */,
-				8B172DD62AD176B100ECBD74 /* basisCoProcessor.cpp in Sources */,
+				8BC971A12B21CAAC00F62534 /* uint128_t.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,27 +388,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B172E522AD1B6C500ECBD74 /* UnitYAD.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8B29B4B22AD1C1D800A7AD33 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8B29B4D32AD1C29200A7AD33 /* uint128_t.cpp in Sources */,
-				8B29B4DC2AD1C29200A7AD33 /* basisProcessor.cpp in Sources */,
-				8B29B4CF2AD1C1F400A7AD33 /* YAD.swift in Sources */,
-				8B29B4D82AD1C29200A7AD33 /* basisCoProcessor.cpp in Sources */,
-				8B29B4D12AD1C1F900A7AD33 /* CWrapper.cpp in Sources */,
-				8B29B4CE2AD1C1F200A7AD33 /* YDConstants.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8B29B4B92AD1C1D900A7AD33 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8B29B4CB2AD1C1E900A7AD33 /* UnitYAD.swift in Sources */,
+				8BDA75692B21A7C900D6128A /* TestConstants.swift in Sources */,
+				8BDA75672B21A79B00D6128A /* TestConstantsXCodeEnvExt.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,11 +400,6 @@
 			isa = PBXTargetDependency;
 			target = 8B172A6C2AD168BB00ECBD74 /* YAD */;
 			targetProxy = 8B172A772AD168BC00ECBD74 /* PBXContainerItemProxy */;
-		};
-		8B29B4C02AD1C1D900A7AD33 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8B29B4B52AD1C1D800A7AD33 /* YADmac */;
-			targetProxy = 8B29B4BF2AD1C1D900A7AD33 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -477,7 +437,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 4;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -495,9 +455,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				MARKETING_VERSION = 0.1.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				STRINGS_FILE_OUTPUT_ENCODING = "UTF-8";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -538,7 +500,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 4;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -550,8 +512,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				MARKETING_VERSION = 0.1.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				STRINGS_FILE_OUTPUT_ENCODING = "UTF-8";
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -562,15 +526,18 @@
 		8B172A802AD168BC00ECBD74 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLY_RULES_IN_COPY_HEADERS = YES;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 4;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = KTJ3SX58WK;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "${PROJECT_DIR}/Sources/YADCXX/include";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
@@ -582,33 +549,43 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				MARKETING_VERSION = 1.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MARKETING_VERSION = 0.1.4;
 				PRODUCT_BUNDLE_IDENTIFIER = org.zeit.sptf.yad;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
 				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator macosx watchos watchsimulator xros xrsimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "Sources/YAD-Bridging-Header.h";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "${PROJECT_DIR}/Sources/YADCXX/YADCXX-XCode-Bridging-Header.h";
+				SWIFT_OBJC_INTEROP_MODE = objc;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,3,4,7";
+				TVOS_DEPLOYMENT_TARGET = 11.0;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
 			};
 			name = Debug;
 		};
 		8B172A812AD168BC00ECBD74 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLY_RULES_IN_COPY_HEADERS = YES;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 4;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = KTJ3SX58WK;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "${PROJECT_DIR}/Sources/YADCXX/include";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
@@ -620,17 +597,24 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				MARKETING_VERSION = 1.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MARKETING_VERSION = 0.1.4;
 				PRODUCT_BUNDLE_IDENTIFIER = org.zeit.sptf.yad;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
 				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator macosx watchos watchsimulator xros xrsimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "Sources/YAD-Bridging-Header.h";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "${PROJECT_DIR}/Sources/YADCXX/YADCXX-XCode-Bridging-Header.h";
+				SWIFT_OBJC_INTEROP_MODE = objc;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,3,4,7";
+				TVOS_DEPLOYMENT_TARGET = 11.0;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
 			};
 			name = Release;
 		};
@@ -643,22 +627,25 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = KTJ3SX58WK;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = org.zeit.sptf.yad.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OBJC_INTEROP_MODE = objc;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -671,118 +658,23 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = KTJ3SX58WK;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = org.zeit.sptf.yad.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		8B29B4C62AD1C1D900A7AD33 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = KTJ3SX58WK;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = org.zeit.sptf.yad.mac;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "Sources/YAD-Bridging-Header.h";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		8B29B4C72AD1C1D900A7AD33 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = KTJ3SX58WK;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = org.zeit.sptf.yad.mac;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "Sources/YAD-Bridging-Header.h";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
-		8B29B4C92AD1C1D900A7AD33 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = KTJ3SX58WK;
-				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = org.zeit.YADmacTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		8B29B4CA2AD1C1D900A7AD33 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = KTJ3SX58WK;
-				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = org.zeit.YADmacTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OBJC_INTEROP_MODE = objc;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
@@ -817,25 +709,26 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8B29B4C52AD1C1D900A7AD33 /* Build configuration list for PBXNativeTarget "YADmac" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8B29B4C62AD1C1D900A7AD33 /* Debug */,
-				8B29B4C72AD1C1D900A7AD33 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8B29B4C82AD1C1D900A7AD33 /* Build configuration list for PBXNativeTarget "YADmacTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8B29B4C92AD1C1D900A7AD33 /* Debug */,
-				8B29B4CA2AD1C1D900A7AD33 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8BDA755E2B21A6DF00D6128A /* XCRemoteSwiftPackageReference "CryptoSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/krzyzanowskim/CryptoSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.8.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8BDA755F2B21A6DF00D6128A /* CryptoSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8BDA755E2B21A6DF00D6128A /* XCRemoteSwiftPackageReference "CryptoSwift" */;
+			productName = CryptoSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8B172A642AD168BB00ECBD74 /* Project object */;
 }
