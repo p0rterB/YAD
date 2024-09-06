@@ -1,0 +1,19 @@
+//
+//  YDConstants.swift
+//  YAD
+//
+//  Created by Developer on 07.10.2023.
+//
+
+import Foundation
+
+public final class YDConstants {
+    
+    fileprivate init() {}
+    
+    ///AES IV. Used for decrypting files
+    public static let aesIV: [UInt8] = [0x72, 0xE0, 0x67, 0xFB, 0xDD, 0xCB, 0xCF, 0x77, 0xEB, 0xE8, 0xBC, 0x64, 0x3F, 0x63, 0x0D, 0x93]
+    
+    ///Hard-coded token on .so (Android) (16 bytes). Each token is unique for each arch and cpu
+    public static let playIntentToken: [UInt8] = [0x01,0xE1,0x32,0xCA,0xE5,0x27,0xBD,0x21,0x62,0x0E,0x82,0x2F,0x58,0x51,0x49,0x32]//Extracted from .so (8.6.80)
+}

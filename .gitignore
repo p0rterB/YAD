@@ -1,13 +1,21 @@
-
 .DS_Store
+Packages
+DerivedData/
+
+## SwiftPM
+Package.resolved
+.swiftpm/*
+.build/*
+##.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+##.swiftpm/configuration/registries.json
+.netrc
 
 ## User settings
 xcuserdata/
 
-
-*.podspec
-.Pods/
-.Podfile.lock
+## Cocoa Pods
+Pods/*
+Podfile.lock
 *.xcworkspace
 
 ### Xcode Patch ###
