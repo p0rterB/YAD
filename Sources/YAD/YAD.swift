@@ -32,14 +32,8 @@ public final class YAD {
         dataIdPtr.initialize(repeating: 0, count: dataId.count)
         dataIdPtr.assign(from: dataId, count: dataId.count)
         let resPtr = UnsafeMutablePointer<UInt8>.allocate(capacity: 16)
-        let length = unwrapKey(keyPtr, dataIdPtr, resPtr)
-        if (length != 16) {
-            #if DEBUG
-            print("Expected key length 16, but was " + String(length))
-            #endif
-            return []
-        }
-        let buffer = UnsafeMutableBufferPointer<UInt8>(start: resPtr, count: Int(length))
+        unwrapKey(keyPtr, dataIdPtr, resPtr)
+        let buffer = UnsafeMutableBufferPointer<UInt8>(start: resPtr, count: 16)
         let keyData = Data(buffer: buffer)
         let keyBytes = [UInt8].init(keyData)
         resPtr.deallocate()

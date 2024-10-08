@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "YAD"
-  spec.version      = "0.1.4"
+  spec.version      = "0.1.5"
   spec.summary      = "Yet another decryption"
   spec.homepage     = "https://github.com/p0rterB/YAD"
   spec.license      = { :type => "MIT", :file => "LICENSE" }

@@ -1,6 +1,0 @@
-framework module YAD {
-  umbrella header "YAD-umbrella.h"
-
-  export *
-  module * { export * }
-}

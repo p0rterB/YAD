@@ -1,4 +1,4 @@
 
 //SPM umbrella header
 
-int unwrapKey(unsigned char *key_basis, unsigned char *data_id, unsigned char *dst);
+void unwrapKey(const unsigned char key_basis[16], const unsigned char data_id[20], unsigned char dst[16]);
